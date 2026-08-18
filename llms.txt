@@ -1,0 +1,16 @@
+# Mephitideus Interactive
+
+> Indie game studio making simple, fun, browser-first action games. No installs, no gatekeepers — play instantly, then continue on Steam or Google Play if you want the full campaign.
+
+## Games
+
+- [Skunked: Way of the Spray](https://www.mephitideus.com/skunked.html): Free 2D beat 'em up platformer starring a ninja skunk. Play the free web demo at https://skunked.io/, get the full campaign on [Steam](https://store.steampowered.com/app/4815180/) or [Google Play](https://play.google.com/store/apps/details?id=com.skunksquad.skunkfu). Full strategy guide (walkthroughs, boss patterns, achievements) at https://skunked.io/guide.
+- [Chip Savage](https://chipsavage.com/): Free browser 2D beat 'em up starring a golf-club-swinging brawler. Survival Mode, achievements, and leaderboards. Source at https://github.com/AbelConsulting/ChipSavage.
+
+## Company
+
+- [Homepage](https://www.mephitideus.com/): Studio overview, full games lineup, and contact info.
+
+## Notes
+
+All games are free to try in-browser with no account or download required. Skunked is the studio's flagship, commercially available on Steam and Google Play; Chip Savage is browser-only and free.
