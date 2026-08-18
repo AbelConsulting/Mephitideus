@@ -1,20 +1,22 @@
 # Assets
 
-Drop your real image assets here to replace the CSS placeholders:
+Real image assets in use across the site:
 
-- `images/logo.png` (or `.svg`) — your Mephitideus Interactive logo.
-  Once added, swap the `.logo-mark` + `.logo-text` markup in `index.html`
-  and `skunked.html` for an `<img>` tag, e.g.:
+- `images/logo.png` — Mephitideus Interactive studio logo, used in the
+  site header on `index.html` and `skunked.html`.
+- `images/main_capsule_1232x706.png` — Skunked capsule art, used as the
+  featured game card image on the homepage.
+- `images/library_logo_1280x720.png` — Skunked title logo (transparent),
+  used above the hero heading on `skunked.html`.
+- `images/page_background_1438x810.png` — atmospheric background image
+  behind the `skunked.html` hero section.
+- `images/maskable-icon-512x512.png` — app icon, used as favicon/apple-touch-icon
+  on both pages.
+- `images/feature-graphic-1024x500.png` — wide promo banner (Google Play
+  feature graphic), not yet placed on the site; available for future use
+  (e.g. a social share / OpenGraph image).
+- `images/favicon.svg` — placeholder striped icon, still used as the primary
+  `<link rel="icon">` (vector, scales cleanly); the PNG icon is a fallback.
 
-  ```html
-  <a class="logo" href="index.html">
-    <img src="assets/images/logo.png" alt="Mephitideus Interactive" height="32">
-  </a>
-  ```
-
-- `images/favicon.svg` — currently a placeholder striped icon. Replace with
-  a real favicon derived from your logo if you'd like.
-
-- `games/skunked/` — add real screenshots or a trailer thumbnail here, then
-  swap the `.media-placeholder` divs in `index.html` / `skunked.html` for
-  `<img>` tags.
+The "Next Project" placeholder card still uses a CSS/emoji tile since there's
+no real game to show yet.
