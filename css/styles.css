@@ -577,6 +577,7 @@ section { padding: 80px 0; }
   flex-wrap: wrap;
   justify-content: center;
 }
+.cta-band-links--spaced { margin-bottom: 60px; }
 
 /* ---------- Store grid (game detail page) ---------- */
 .store-grid {
