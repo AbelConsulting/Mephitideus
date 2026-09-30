@@ -258,6 +258,116 @@ a:focus-visible, button:focus-visible {
   background-position: center;
 }
 
+.chip-hero {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  align-items: center;
+  min-height: 560px;
+  padding: 86px 0 76px;
+  overflow: hidden;
+  background: #17170f;
+}
+
+.chip-course-art { position: absolute; inset: 0; z-index: -1; }
+.chip-course-art img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 60%;
+  opacity: 0.52;
+}
+.chip-course-art::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(15, 16, 12, 0.96), rgba(15, 16, 12, 0.8) 44%, rgba(15, 16, 12, 0.3)),
+    linear-gradient(0deg, var(--bg), transparent 48%);
+}
+.chip-hero-inner { position: relative; max-width: 760px; }
+.chip-hero h1 {
+  max-width: 700px;
+  margin: 0;
+  font-family: "Barlow Condensed", Impact, sans-serif;
+  font-size: 76px;
+  font-weight: 700;
+  line-height: 0.95;
+  text-wrap: balance;
+}
+.chip-hero h1 span { color: #ffc45e; }
+.chip-tour-title {
+  margin: 12px 0 14px;
+  color: #ffc45e;
+  font-family: "Barlow Condensed", Impact, sans-serif;
+  font-size: 27px;
+  font-weight: 600;
+}
+.btn-chip { color: #171009; background: #ffc45e; }
+.btn-chip:hover { background: #ffd486; }
+
+.chip-modes { padding: 74px 0; }
+.chip-modes > .container > .eyebrow { margin-bottom: 9px; }
+.chip-mode-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 28px;
+}
+.chip-mode {
+  min-height: 190px;
+  padding: 22px;
+  border: 1px solid var(--border);
+  border-top: 2px solid #bb8736;
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+.chip-mode .note-category { margin: 0 0 16px; }
+.chip-mode h3 {
+  margin: 0 0 8px;
+  font-family: "Barlow Condensed", Impact, sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+.chip-mode > p:last-child { margin: 0; color: var(--text-muted); font-size: 14px; }
+
+.chip-scoring { padding: 54px 0; background: var(--surface); border-block: 1px solid var(--border); }
+.chip-scoring-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 0.8fr);
+  align-items: center;
+  gap: 48px;
+}
+.chip-scoring .section-title { margin-bottom: 12px; }
+.chip-scoring-inner > div:first-child > p:last-child { max-width: 610px; margin: 0; color: var(--text-muted); }
+.chip-score-numbers { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.chip-score-numbers > div {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 18px;
+  border-left: 2px solid #bb8736;
+  background: var(--surface-2);
+}
+.chip-score-numbers strong { color: #ffc45e; font-family: "Barlow Condensed", Impact, sans-serif; font-size: 42px; line-height: 1; }
+.chip-score-numbers span { color: var(--text-muted); font-size: 12px; }
+
+.chip-cross-promo { padding: 64px 0; }
+.chip-cross-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+}
+.chip-cross-inner h2 {
+  margin: 0 0 8px;
+  font-family: "Barlow Condensed", Impact, sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+}
+.chip-cross-inner > div:first-child > p:last-child { max-width: 590px; margin: 0; color: var(--text-muted); }
+.chip-cross-actions { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; flex: 0 0 auto; }
+
 .hero-logo {
   max-width: 340px;
   width: 100%;
@@ -421,6 +531,7 @@ section { padding: 78px 0; }
 }
 
 .badge-live { background: var(--accent); color: #0c0d0f; }
+.badge-dev { background: #ffc45e; color: #171009; }
 .badge-soon { background: var(--surface-2); color: var(--text-muted); border: 1px solid var(--border); }
 
 .game-card-body { padding: 28px; flex: 1; display: flex; flex-direction: column; }
@@ -853,6 +964,10 @@ section { padding: 78px 0; }
   .store-band { flex-direction: column; align-items: flex-start; }
   .play-options > div { grid-template-columns: 130px minmax(0, 1fr); }
   .play-options dd:last-child { grid-column: 2; }
+  .chip-mode-grid { grid-template-columns: 1fr; }
+  .chip-mode { min-height: 0; }
+  .chip-scoring-inner { grid-template-columns: 1fr; gap: 26px; }
+  .chip-cross-inner { align-items: flex-start; flex-direction: column; }
 
   .site-nav {
     position: fixed;
@@ -920,6 +1035,13 @@ section { padding: 78px 0; }
   .play-options > div { grid-template-columns: 1fr; gap: 5px; }
   .play-options dd:last-child { grid-column: 1; }
   .article-actions .btn { flex: 1 1 100%; }
+  .chip-hero { min-height: 520px; padding: 72px 0 58px; }
+  .chip-hero h1 { font-size: 52px; }
+  .chip-tour-title { font-size: 23px; }
+  .chip-mode-grid { gap: 12px; }
+  .chip-scoring { padding: 42px 0; }
+  .chip-score-numbers { gap: 8px; }
+  .chip-score-numbers > div { padding: 14px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
