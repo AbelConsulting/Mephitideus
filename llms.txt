@@ -13,6 +13,13 @@
 - [Choose How to Play Skunked](https://www.mephitideus.com/articles/choose-how-to-play-skunked.html): Compare the free browser demo with the full Steam and Google Play campaigns.
 - [Field Notes](https://www.mephitideus.com/articles/): Studio articles and practical game guides.
 
+## Devlog and Press
+
+- [Development log](https://www.mephitideus.com/devlog/): Occasional project notes. Chip Savage Golf is in early development and still a long way from release.
+- [Chip Savage project introduction](https://www.mephitideus.com/devlog/introducing-chip-savage.html): Current project context; not a release announcement.
+- [RSS feed](https://www.mephitideus.com/devlog/feed.xml): Subscribe to development-log posts.
+- [Press kit](https://www.mephitideus.com/press-kit.html): Studio boilerplate, verified game descriptions, and downloadable approved artwork.
+
 ## Company
 
 - [Homepage](https://www.mephitideus.com/): Studio overview, full games lineup, and contact info.

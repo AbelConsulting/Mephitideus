@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Mephitideus Interactive Devlog</title>
+    <link>https://www.mephitideus.com/devlog/</link>
+    <description>Occasional development notes and project updates from Mephitideus Interactive.</description>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Sep 2026 12:00:00 GMT</lastBuildDate>
+    <atom:link href="https://www.mephitideus.com/devlog/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
+    <item>
+      <title>Introducing Chip Savage Golf: Underground Tour</title>
+      <link>https://www.mephitideus.com/devlog/introducing-chip-savage.html</link>
+      <guid isPermaLink="true">https://www.mephitideus.com/devlog/introducing-chip-savage.html</guid>
+      <pubDate>Wed, 30 Sep 2026 12:00:00 GMT</pubDate>
+      <description>Chip Savage Golf: Underground Tour is in early development and still a long way from release. This project introduction shares what the current browser build shows and why we are beginning to build awareness now.</description>
+    </item>
+  </channel>
+</rss>
