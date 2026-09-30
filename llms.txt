@@ -7,6 +7,12 @@
 - [Skunked: Way of the Spray](https://www.mephitideus.com/skunked.html): Free 2D beat 'em up platformer starring a ninja skunk. Play the free web demo at https://skunked.io/, get the full campaign on [Steam](https://store.steampowered.com/app/4815180/) or [Google Play](https://play.google.com/store/apps/details?id=com.skunksquad.skunkfu). Full strategy guide (walkthroughs, boss patterns, achievements) at https://skunked.io/guide.
 - [Chip Savage](https://chipsavage.com/): Free browser 2D beat 'em up starring a golf-club-swinging brawler. Survival Mode, achievements, and leaderboards. Source at https://github.com/AbelConsulting/ChipSavage.
 
+## Articles
+
+- [Beat 'Em Up Games, Explained](https://www.mephitideus.com/articles/beat-em-up-games.html): A beginner's guide to combos, crowd control, stage flow, and boss fights.
+- [Choose How to Play Skunked](https://www.mephitideus.com/articles/choose-how-to-play-skunked.html): Compare the free browser demo with the full Steam and Google Play campaigns.
+- [Field Notes](https://www.mephitideus.com/articles/): Studio articles and practical game guides.
+
 ## Company
 
 - [Homepage](https://www.mephitideus.com/): Studio overview, full games lineup, and contact info.

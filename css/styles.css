@@ -626,6 +626,98 @@ section { padding: 78px 0; }
 
 .game-detail h2[id] { scroll-margin-top: 146px; }
 
+.article-index-hero {
+  padding: 78px 0 54px;
+  border-bottom: 1px solid var(--border);
+  background: linear-gradient(120deg, rgba(67, 198, 180, 0.09), transparent 58%);
+}
+
+.article-index-inner { max-width: 900px; }
+.article-index-inner h1, .article-title {
+  font-family: "Barlow Condensed", Impact, sans-serif;
+  font-weight: 700;
+  line-height: 1;
+  text-wrap: balance;
+}
+.article-index-inner h1 { max-width: 760px; margin: 0 0 18px; font-size: 58px; }
+.article-dek { max-width: 700px; color: var(--text-muted); font-size: 19px; line-height: 1.65; }
+.article-index-inner .article-dek { margin: 0; }
+
+.article-index-section { padding: 0 0 84px; }
+.article-index-list { max-width: 960px; }
+
+.note-card {
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr);
+  gap: 28px;
+  padding: 28px 0 32px;
+  border-bottom: 1px solid var(--border);
+}
+.note-card:first-child { border-top: 1px solid var(--border); }
+.note-category {
+  margin: 7px 0 0;
+  color: var(--accent-2);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.note-card h2, .article-next h2 {
+  font-family: "Barlow Condensed", Impact, sans-serif;
+  font-size: 31px;
+  line-height: 1.08;
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+.note-card h2 a:hover, .article-read-link:hover { color: var(--accent); }
+.note-card > div > p { margin: 0 0 13px; color: var(--text-muted); }
+.article-read-link { color: var(--accent); font-size: 14px; font-weight: 700; }
+
+.article-layout { max-width: 980px; margin: 0 auto; padding: 52px 24px 88px; }
+.article-header { max-width: 800px; margin-bottom: 38px; }
+.article-header .back-link { margin-bottom: 26px; }
+.article-header .eyebrow { margin-bottom: 12px; }
+.article-title { margin: 0 0 18px; font-size: 56px; }
+.article-header .article-dek { margin: 0 0 20px; }
+.article-byline { color: var(--text-muted); font-size: 13px; margin: 0; }
+
+.article-prose { max-width: 760px; }
+.article-prose p, .article-prose li { color: #d1d5cf; font-size: 16px; line-height: 1.8; }
+.article-prose p { margin: 0 0 20px; }
+.article-prose h2 {
+  font-family: "Barlow Condensed", Impact, sans-serif;
+  font-size: 34px;
+  line-height: 1.1;
+  font-weight: 600;
+  margin: 42px 0 12px;
+  scroll-margin-top: 100px;
+}
+.article-prose h3 { font-family: "Barlow Condensed", Impact, sans-serif; font-size: 24px; }
+.article-prose a:not(.btn) { color: var(--accent); text-decoration: underline; text-decoration-color: rgba(201, 250, 85, 0.5); text-underline-offset: 3px; }
+.article-prose a:not(.btn):hover { text-decoration-color: currentColor; }
+
+.article-steps { padding-left: 24px; margin: 0 0 28px; }
+.article-steps li { padding-left: 5px; margin-bottom: 15px; }
+.article-steps strong { color: var(--text); }
+
+.play-options { margin: 20px 0 30px; border-top: 1px solid var(--border); }
+.play-options > div {
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr) minmax(145px, auto);
+  gap: 18px;
+  align-items: baseline;
+  padding: 17px 0;
+  border-bottom: 1px solid var(--border);
+}
+.play-options dt { font-weight: 700; }
+.play-options dd { margin: 0; color: var(--text-muted); font-size: 14px; }
+.play-options dd a { font-weight: 700; }
+
+.article-actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 34px 0 50px; }
+.article-next { border-top: 1px solid var(--border); padding-top: 22px; }
+.article-next .note-category { margin: 0 0 9px; }
+.article-next h2 { margin-bottom: 12px; }
+
 .feature-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -759,6 +851,8 @@ section { padding: 78px 0; }
   .game-card--featured .game-card-body { padding: 28px; }
   .about-inner { grid-template-columns: 1fr; }
   .store-band { flex-direction: column; align-items: flex-start; }
+  .play-options > div { grid-template-columns: 130px minmax(0, 1fr); }
+  .play-options dd:last-child { grid-column: 2; }
 
   .site-nav {
     position: fixed;
@@ -814,6 +908,18 @@ section { padding: 78px 0; }
   .stat { padding: 18px; }
   .footer-inner { flex-direction: column; }
   .hero, .game-hero { padding-top: 72px; }
+  .article-index-hero { padding: 60px 0 42px; }
+  .article-index-inner h1 { font-size: 44px; }
+  .article-dek { font-size: 16px; }
+  .note-card { grid-template-columns: 1fr; gap: 8px; padding: 22px 0 25px; }
+  .note-card h2 { font-size: 28px; }
+  .article-layout { padding: 34px 20px 64px; }
+  .article-title { font-size: 42px; }
+  .article-prose p, .article-prose li { font-size: 15.5px; }
+  .article-prose h2 { font-size: 30px; margin-top: 34px; }
+  .play-options > div { grid-template-columns: 1fr; gap: 5px; }
+  .play-options dd:last-child { grid-column: 1; }
+  .article-actions .btn { flex: 1 1 100%; }
 }
 
 @media (prefers-reduced-motion: reduce) {
