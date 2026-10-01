@@ -5,7 +5,7 @@
 ## Games
 
 - [Skunked: Way of the Spray](https://www.mephitideus.com/skunked.html): Free 2D beat 'em up platformer starring a ninja skunk. Play the free web demo at https://skunked.io/, get the full campaign on [Steam](https://store.steampowered.com/app/4815180/) or [Google Play](https://play.google.com/store/apps/details?id=com.skunksquad.skunkfu). Full strategy guide (walkthroughs, boss patterns, achievements) at https://skunked.io/guide.
-- [Chip Savage Golf: Underground Tour](https://www.mephitideus.com/chip-savage.html): Golf-action game in early development and still a long way from release. The studio is beginning to build awareness; read about the project and preview its current build at https://chipsavage.com/.
+- [Chip Savage Golf: Underground Tour](https://www.mephitideus.com/chip-savage.html): Golf-action game in development and still a long way from release. The studio is beginning to build awareness; read about the project and preview its current build at https://chipsavage.com/.
 
 ## Articles
 
@@ -15,7 +15,7 @@
 
 ## Devlog and Press
 
-- [Development log](https://www.mephitideus.com/devlog/): Occasional project notes. Chip Savage Golf is in early development and still a long way from release.
+- [Development log](https://www.mephitideus.com/devlog/): Occasional project notes. Chip Savage Golf is in development and still a long way from release.
 - [Chip Savage project introduction](https://www.mephitideus.com/devlog/introducing-chip-savage.html): Current project context; not a release announcement.
 - [RSS feed](https://www.mephitideus.com/devlog/feed.xml): Subscribe to development-log posts.
 - [Press kit](https://www.mephitideus.com/press-kit.html): Studio boilerplate, verified game descriptions, and downloadable approved artwork.
@@ -26,4 +26,4 @@
 
 ## Notes
 
-Skunked is the studio's published full game, with a free browser demo and complete campaign on Steam and Google Play. Chip Savage Golf is in early development, still a long way from release; its current browser build is an early preview, not a released game.
+Skunked is the studio's published full game, with a free browser demo and complete campaign on Steam and Google Play. Chip Savage Golf is in development, still a long way from release; its current browser build is an early preview, not a released game.
