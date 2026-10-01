@@ -583,6 +583,32 @@ section { padding: 78px 0; }
   border-top: 1px solid var(--border);
 }
 
+.sequel-easter-egg {
+  margin-top: 14px;
+  color: var(--text-muted);
+  font-size: 12px;
+}
+
+.sequel-easter-egg summary {
+  width: fit-content;
+  cursor: pointer;
+  opacity: 0.62;
+  transition: opacity var(--transition), color var(--transition);
+}
+
+.sequel-easter-egg summary:hover,
+.sequel-easter-egg summary:focus-visible,
+.sequel-easter-egg[open] summary {
+  color: var(--accent);
+  opacity: 1;
+}
+
+.sequel-easter-egg p {
+  margin: 5px 0 0;
+  color: var(--text-muted);
+  font-size: 12px;
+}
+
 /* ---------- Store band (Where to Play) ---------- */
 .store-band {
   margin-top: 36px;
