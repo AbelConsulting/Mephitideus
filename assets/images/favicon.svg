@@ -1,7 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <radialGradient id="ball" cx="38%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#f2f3f0"/>
+      <stop offset="100%" stop-color="#d4d8cc"/>
+    </radialGradient>
+    <radialGradient id="dimple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a9afa0"/>
+      <stop offset="100%" stop-color="#ccd1c2"/>
+    </radialGradient>
+    <clipPath id="ballClip">
+      <circle cx="32" cy="31" r="19"/>
+    </clipPath>
+  </defs>
   <rect width="64" height="64" rx="14" fill="#0c0d0f"/>
-  <path d="M8 14 L56 14 L56 22 L8 22 Z" fill="#f2f3f0"/>
-  <path d="M8 30 L56 30 L56 38 L8 38 Z" fill="#f2f3f0"/>
-  <path d="M8 46 L56 46 L56 54 L8 54 Z" fill="#f2f3f0"/>
+  <ellipse cx="32" cy="52.5" rx="14" ry="3" fill="#000000" opacity="0.4"/>
+  <circle cx="32" cy="31" r="19" fill="url(#ball)"/>
+  <g clip-path="url(#ballClip)" fill="url(#dimple)">
+    <circle cx="20" cy="19" r="2.4"/><circle cx="26" cy="19" r="2.4"/><circle cx="32" cy="19" r="2.4"/><circle cx="38" cy="19" r="2.4"/><circle cx="44" cy="19" r="2.4"/>
+    <circle cx="17" cy="25" r="2.4"/><circle cx="23" cy="25" r="2.4"/><circle cx="29" cy="25" r="2.4"/><circle cx="35" cy="25" r="2.4"/><circle cx="41" cy="25" r="2.4"/><circle cx="47" cy="25" r="2.4"/>
+    <circle cx="14" cy="31" r="2.4"/><circle cx="20" cy="31" r="2.4"/><circle cx="26" cy="31" r="2.4"/><circle cx="32" cy="31" r="2.4"/><circle cx="38" cy="31" r="2.4"/><circle cx="44" cy="31" r="2.4"/><circle cx="50" cy="31" r="2.4"/>
+    <circle cx="17" cy="37" r="2.4"/><circle cx="23" cy="37" r="2.4"/><circle cx="29" cy="37" r="2.4"/><circle cx="35" cy="37" r="2.4"/><circle cx="41" cy="37" r="2.4"/><circle cx="47" cy="37" r="2.4"/>
+    <circle cx="20" cy="43" r="2.4"/><circle cx="26" cy="43" r="2.4"/><circle cx="32" cy="43" r="2.4"/><circle cx="38" cy="43" r="2.4"/><circle cx="44" cy="43" r="2.4"/>
+  </g>
+  <ellipse cx="25" cy="22" rx="6" ry="4" fill="#ffffff" opacity="0.55" transform="rotate(-25 25 22)"/>
+  <circle cx="32" cy="31" r="19" fill="none" stroke="#0c0d0f" stroke-width="1" opacity="0.35"/>
   <rect x="0" y="0" width="64" height="64" rx="14" fill="none" stroke="#baff29" stroke-width="3"/>
 </svg>

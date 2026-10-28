@@ -15,7 +15,7 @@ Real image assets in use across the site:
 - `images/feature-graphic-1024x500.png` — wide promo banner (Google Play
   feature graphic), not yet placed on the site; available for future use
   (e.g. a social share / OpenGraph image).
-- `images/favicon.svg` — placeholder striped icon, still used as the primary
+- `images/favicon.svg` — golf ball icon, used as the primary
   `<link rel="icon">` (vector, scales cleanly); the PNG icon is a fallback.
 
 The "Next Project" placeholder card still uses a CSS/emoji tile since there's
