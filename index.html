@@ -6,6 +6,7 @@
   <title>Mephitideus Interactive | Indie Game Studio</title>
   <meta name="description" content="Mephitideus Interactive makes browser-first action games. Play Skunked free online, then get the full campaign on Steam or Google Play.">
   <meta name="theme-color" content="#101311">
+  <meta name="robots" content="max-image-preview:large">
   <link rel="canonical" href="https://www.mephitideus.com/">
   <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
   <link rel="icon" href="assets/images/maskable-icon-512x512.png" sizes="512x512" type="image/png">
@@ -40,17 +41,15 @@
     "name": "Mephitideus Interactive",
     "url": "https://www.mephitideus.com/",
     "logo": "https://www.mephitideus.com/assets/images/logo.png",
-    "email": "service@skunked.io",
-    "sameAs": [
-      "https://store.steampowered.com/app/4815180/",
-      "https://play.google.com/store/apps/details?id=com.skunksquad.skunkfu"
-    ]
+    "description": "An independent game studio focused on approachable action games and browser-first experiences.",
+    "email": "service@skunked.io"
   }
   </script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
+    "@id": "https://www.mephitideus.com/#website",
     "name": "Mephitideus Interactive",
     "url": "https://www.mephitideus.com/",
     "publisher": { "@id": "https://www.mephitideus.com/#organization" }
@@ -60,9 +59,11 @@
   {
     "@context": "https://schema.org",
     "@type": "VideoGame",
-    "name": "Chip Savage",
+    "@id": "https://www.mephitideus.com/chip-savage.html#game",
+    "name": "Chip Savage Golf: Underground Tour",
     "description": "An in-development browser golf action game where Chip fights through outlaw courses, collects Golden Cups, and takes on the Underground Tour.",
     "url": "https://www.mephitideus.com/chip-savage.html",
+    "image": "https://www.mephitideus.com/assets/images/feature_art_chip.png",
     "sameAs": "https://chipsavage.com/",
     "genre": ["Arcade", "Sports", "Action"],
     "gamePlatform": "Web browser",
@@ -73,19 +74,21 @@
   {
     "@context": "https://schema.org",
     "@type": "VideoGame",
+    "@id": "https://www.mephitideus.com/skunked.html#game",
     "name": "Skunked: Way of the Spray",
     "description": "A fast 2D beat 'em up platformer starring a ninja skunk. Free web demo, full campaign on Steam and Google Play.",
     "url": "https://www.mephitideus.com/skunked.html",
     "image": "https://www.mephitideus.com/assets/images/main_capsule_1232x706.png",
     "genre": ["Beat 'em up", "Action", "Platformer"],
     "gamePlatform": ["Web Browser", "PC", "Steam Deck", "Android"],
-    "publisher": { "@type": "Organization", "name": "Mephitideus Interactive", "url": "https://www.mephitideus.com/" },
+    "publisher": { "@id": "https://www.mephitideus.com/#organization" },
     "subjectOf": {
       "@type": "CreativeWork",
       "name": "Skunked: Way of the Spray Strategy Guide",
       "url": "https://skunked.io/guide"
     },
     "sameAs": [
+      "https://skunked.io/",
       "https://store.steampowered.com/app/4815180/",
       "https://play.google.com/store/apps/details?id=com.skunksquad.skunkfu"
     ]
@@ -121,7 +124,7 @@
     <!-- HERO -->
     <section class="hero">
         <div class="hero-art" aria-hidden="true">
-          <img src="assets/images/feature-graphic-1024x500.png" alt="" fetchpriority="high">
+          <img src="assets/images/feature-graphic-1024x500.png" alt="" width="1024" height="500" fetchpriority="high">
         </div>
       <div class="container hero-inner">
           <p class="eyebrow reveal"><span class="eyebrow-mark" aria-hidden="true"></span>Independent game studio</p>
@@ -298,6 +301,7 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <span>&copy; <span id="year"></span> Mephitideus Interactive. All rights reserved.</span>
+      <a href="llms.txt">Plain-text site summary</a>
     </div>
   </footer>
 

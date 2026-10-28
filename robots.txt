@@ -1,18 +1,29 @@
 User-agent: *
 Allow: /
 
-# Explicitly allow known AI crawlers/assistants (covered by the wildcard above too)
-User-agent: GPTBot
+# Search crawlers (also allowed by the wildcard above)
+User-agent: OAI-SearchBot
 Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+
+# User-requested fetches
 User-agent: ChatGPT-User
+Allow: /
+User-agent: Claude-User
+Allow: /
+
+# Preserve the existing permission for training and other AI crawlers.
+# Training permission is separate from search visibility.
+User-agent: GPTBot
 Allow: /
 User-agent: Google-Extended
 Allow: /
 User-agent: ClaudeBot
 Allow: /
 User-agent: anthropic-ai
-Allow: /
-User-agent: PerplexityBot
 Allow: /
 User-agent: CCBot
 Allow: /

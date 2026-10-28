@@ -16,6 +16,39 @@ assets/         Images and logo (see assets/README.md)
 
 Plain HTML/CSS/JS, no build step, no dependencies.
 
+## SEO and crawler maintenance
+
+Every public HTML page has a canonical URL, social preview metadata, and static
+JSON-LD. Keep game names and their `#game` identifiers consistent across pages.
+Each page defines the studio's `#organization` entity locally so its publisher
+reference does not depend on a crawler fetching the homepage first. Store
+listings identify the games, not the studio, so they belong on game `sameAs`
+properties rather than the organization's.
+
+When adding a page, link it from the site and add its canonical URL to
+`sitemap.xml` and `llms.txt`. Use locally hosted preview artwork. Article
+publication dates should match the visible byline; the initial guide dates
+are based on their September 30, 2026 first-added git history. Only add or
+change modification dates (including sitemap `lastmod`) for genuine content
+updates, not automatically on every deployment.
+
+`robots.txt` allows search crawlers and preserves the existing AI-training
+permissions. Search visibility and training are separate choices.
+`llms.txt` is an optional plain-text guide, not a standardized ranking signal
+or a replacement for crawlable HTML, internal links, and the sitemap.
+
+Run the dependency-free checks with Node.js 18 or newer:
+
+```powershell
+node scripts\check-seo.mjs
+```
+
+These are local consistency checks, not a complete HTML or Schema.org validator.
+After deployment, verify canonical URLs and indexing in Google Search Console
+and Bing Webmaster Tools, submit the sitemap, and test structured data with
+Google's Rich Results Test and the Schema.org validator. Indexing and AI
+citations are not guaranteed by crawler permissions or structured data.
+
 ## Local preview
 
 ```powershell

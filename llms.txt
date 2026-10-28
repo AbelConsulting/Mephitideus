@@ -23,7 +23,14 @@
 ## Company
 
 - [Homepage](https://www.mephitideus.com/): Studio overview, full games lineup, and contact info.
+- [Sitemap](https://www.mephitideus.com/sitemap.xml): Canonical URLs for the studio site.
+
+## Contact
+
+Studio and press inquiries: service@skunked.io. The studio's name is Mephitideus Interactive.
 
 ## Notes
 
 Skunked is the studio's published full game, with a free browser demo and complete campaign on Steam and Google Play. Chip Savage Golf is in development, still a long way from release; its current browser build is an early preview, not a released game.
+
+This is the studio site. skunked.io hosts the Skunked browser demo and strategy guide; chipsavage.com hosts the early Chip Savage build. For current prices, availability, and compatibility, consult the linked store listings. No release date is announced here for Chip Savage Golf.
