@@ -817,6 +817,9 @@ section { padding: 78px 0; }
 .article-title { margin: 0 0 18px; font-size: 56px; }
 .article-header .article-dek { margin: 0 0 20px; }
 .article-byline { color: var(--text-muted); font-size: 13px; margin: 0; }
+.article-feature-image { margin: 28px 0 0; }
+.article-feature-image img { display: block; width: min(100%, 360px); height: auto; border: 1px solid var(--border); border-radius: 12px; }
+.article-feature-image figcaption { margin-top: 9px; color: var(--text-muted); font-size: 13px; }
 
 .article-prose { max-width: 760px; }
 .article-prose p, .article-prose li { color: #d1d5cf; font-size: 16px; line-height: 1.8; }
