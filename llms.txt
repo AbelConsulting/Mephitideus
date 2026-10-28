@@ -11,6 +11,7 @@
 
 - [Beat 'Em Up Games, Explained](https://www.mephitideus.com/articles/beat-em-up-games.html): A beginner's guide to combos, crowd control, stage flow, and boss fights.
 - [Choose How to Play Skunked](https://www.mephitideus.com/articles/choose-how-to-play-skunked.html): Compare the free browser demo with the full Steam and Google Play campaigns.
+- [About Marc Abel](https://www.mephitideus.com/articles/about-marc-abel.html): How the Mephitideus Interactive founder turned family life and real-world work experiences into the art and enemies of Skunked: Way of the Spray.
 - [Field Notes](https://www.mephitideus.com/articles/): Studio articles and practical game guides.
 
 ## Devlog and Press
